@@ -6,7 +6,7 @@ public class LABEXE1 {
 
     // Default constructor
     public LABEXE1() {
-        // Initialize data members
+        // Initializing the data members
         project_name = "";
         project_location = "";
         project_budget = 0.0;
@@ -58,7 +58,6 @@ public class LABEXE1 {
     }
 
     public static void main(String[] args) {
-        // Example usage of the class
         System.out.println("Projects for the month");
         LABEXE1 project1 = new LABEXE1("Super market", "Bangalore", 1000000.0);
         project1.printProjectDetails();
